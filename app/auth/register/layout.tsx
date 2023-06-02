@@ -1,11 +1,12 @@
+"use client"
 import Navbar from '@/app/components/navbar/Navbar'
 import React from 'react'
 
-type Props = {
+type RegisterProps = {
   children: React.ReactNode
 }
 
-const layout = ({ children }: Props) => {
+const layout = ({children}: RegisterProps) => {
   return (
     <div className='flex flex-col h-full'>
       <Navbar />

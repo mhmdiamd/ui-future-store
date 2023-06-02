@@ -1,7 +1,7 @@
 "use client"
 
 import Button from '@/app/components/Button'
-import Input from '@/app/components/Input'
+import Input from '@/app/components/forms/Input'
 import Image from 'next/image'
 import React, { useState } from 'react'
 import { FieldValues, SubmitHandler, useForm } from 'react-hook-form'

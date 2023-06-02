@@ -38,10 +38,11 @@ const Input: React.FC<InputProps> = ({
             autoComplete={id}
             {...register(id, { required: required })}
             className={clsx(`
+              form-input
               mt-1
               w-full
               py-2
-              bg-gray-200
+              bg-gray-100
               rounded-md
               block
               placeholder:text-gray-600
@@ -49,6 +50,7 @@ const Input: React.FC<InputProps> = ({
               sm:leading-6
               px-3
               outline-0
+              border-0
             `,
               errors[0] && "focus:ring-rose-500",
               disabled && "opacity-50"

@@ -18,11 +18,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="flex flex-col h-full min-h-screen justify-between">
-          <div className="w-full min-h-full h-full">
+        <div className="h-screen flex flex-col">
+          <div className='flex-1 pb-10'>
             {children}
           </div>
-          <Footer />
+          <div className=''>
+            <Footer />
+          </div>
         </div>
       </body>
     </html>
